@@ -39,9 +39,7 @@ android {
         minSdkVersion 18
         targetSdkVersion 25
     }
-    lintOptions {
-        abortOnError false
-    }
+
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_7
