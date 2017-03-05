@@ -13,6 +13,7 @@ apply plugin: 'com.android.application'
 
 repositories {
     jcenter()
+    mavenCentral()
 }
 
 dependencies {
@@ -27,6 +28,7 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile project(':Shared')
     wearApp project(':Wearable')
+    compile files('libs/junit-4.12.jar')
 }
 
 // The sample build uses multiple directories to
@@ -65,8 +67,8 @@ android {
                 res.srcDirs "src/${dir}/res"
             }
         }
-        androidTest.setRoot('tests')
-        androidTest.java.srcDirs = ['tests/src']
+        test.setRoot('tests')
+        test.java.srcDirs = ['tests/src']
 
     }
 
