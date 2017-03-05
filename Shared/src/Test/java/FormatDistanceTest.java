@@ -22,8 +22,10 @@ public class FormatDistanceTest {
         String actual = Utils.formatDistanceBetween(p1, p2);
 
         String expected = "968.9km";
+        String expectedFail = "1968.9km";
 
         assertEquals(expected, actual);
+        assertEquals(expectedFail, actual);
 
 
     }
