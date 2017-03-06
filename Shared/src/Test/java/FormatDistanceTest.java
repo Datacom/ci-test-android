@@ -24,7 +24,7 @@ public class FormatDistanceTest {
         String expected = "968.9km";
         String expectedFail = "1968.9km";
 
-        assertEquals(expected, actual);
+        //assertEquals(expected, actual);
         assertEquals(expectedFail, actual);
 
 
