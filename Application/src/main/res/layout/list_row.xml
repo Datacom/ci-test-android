@@ -67,7 +67,7 @@
             android:padding="@dimen/small_margin"
             android:ellipsize="end"
             android:maxLines="4"
-            android:textColor="#f00"
+            android:textColor="#0f0"
             style="?android:textAppearanceSmall"
             tools:text="Description goes here" />
 
